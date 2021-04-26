@@ -42,8 +42,23 @@ export const ColumnWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    a{
+      width: 100%;
+      height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 28px;
     margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover{
+      transform: translateY(-5px);
+    }
+    }
   }
 
   @media screen and (max-width: 768px) {

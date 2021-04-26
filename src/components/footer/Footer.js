@@ -15,8 +15,20 @@ const Footer = () => {
             <AiOutlinePhone /> +48 785 964 722
           </div>
           <div className="icons">
-            <FaLinkedin />
-            <FaGithubSquare />
+            <a
+              href="https://www.linkedin.com/in/bartosz-ga%C5%82uszka-286242200/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/bart6g"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithubSquare />
+            </a>
           </div>
         </div>
       </ColumnWrapper>
