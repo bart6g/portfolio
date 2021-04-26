@@ -7,7 +7,7 @@ const mailgun = require("mailgun-js")({
 export const sendEmail = async (name, email, message) => {
   const data = {
     from: email,
-    to: "bartosz.galuszka96@gmail.com",
+    to: "galuszkabartosz5@gmail.com",
     subject: `PORTFOLIO from ${name}`,
     html: `<p>${message}</p>`,
   };
