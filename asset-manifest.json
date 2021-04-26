@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e57e99e0.chunk.css",
-    "main.js": "/portfolio/static/js/main.720ad868.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.720ad868.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8391e969.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8391e969.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.728b41af.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.728b41af.js.map",
-    "static/js/2.b668e5a0.chunk.js": "/portfolio/static/js/2.b668e5a0.chunk.js",
-    "static/js/2.b668e5a0.chunk.js.map": "/portfolio/static/js/2.b668e5a0.chunk.js.map",
+    "static/js/2.177a6203.chunk.js": "/portfolio/static/js/2.177a6203.chunk.js",
+    "static/js/2.177a6203.chunk.js.map": "/portfolio/static/js/2.177a6203.chunk.js.map",
     "static/js/3.477f5a69.chunk.js": "/portfolio/static/js/3.477f5a69.chunk.js",
     "static/js/3.477f5a69.chunk.js.map": "/portfolio/static/js/3.477f5a69.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.e57e99e0.chunk.css.map": "/portfolio/static/css/main.e57e99e0.chunk.css.map",
-    "static/js/2.b668e5a0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b668e5a0.chunk.js.LICENSE.txt",
+    "static/js/2.177a6203.chunk.js.LICENSE.txt": "/portfolio/static/js/2.177a6203.chunk.js.LICENSE.txt",
     "static/media/MERN-logo.39d4f786.png": "/portfolio/static/media/MERN-logo.39d4f786.png",
     "static/media/candyshop.d797b5e0.jpg": "/portfolio/static/media/candyshop.d797b5e0.jpg",
     "static/media/css3.630b9366.png": "/portfolio/static/media/css3.630b9366.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.728b41af.js",
-    "static/js/2.b668e5a0.chunk.js",
+    "static/js/2.177a6203.chunk.js",
     "static/css/main.e57e99e0.chunk.css",
-    "static/js/main.720ad868.chunk.js"
+    "static/js/main.8391e969.chunk.js"
   ]
 }
