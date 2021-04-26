@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5e5f5b89.chunk.css",
+    "main.js": "/portfolio/static/js/main.cf4f7f3d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cf4f7f3d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.728b41af.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.728b41af.js.map",
+    "static/js/2.dc7c36a5.chunk.js": "/portfolio/static/js/2.dc7c36a5.chunk.js",
+    "static/js/2.dc7c36a5.chunk.js.map": "/portfolio/static/js/2.dc7c36a5.chunk.js.map",
+    "static/js/3.477f5a69.chunk.js": "/portfolio/static/js/3.477f5a69.chunk.js",
+    "static/js/3.477f5a69.chunk.js.map": "/portfolio/static/js/3.477f5a69.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.5e5f5b89.chunk.css.map": "/portfolio/static/css/main.5e5f5b89.chunk.css.map",
+    "static/js/2.dc7c36a5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dc7c36a5.chunk.js.LICENSE.txt",
+    "static/media/MERN-logo.39d4f786.png": "/portfolio/static/media/MERN-logo.39d4f786.png",
+    "static/media/candyshop.d797b5e0.jpg": "/portfolio/static/media/candyshop.d797b5e0.jpg",
+    "static/media/css3.630b9366.png": "/portfolio/static/media/css3.630b9366.png",
+    "static/media/flo.041b6cc1.png": "/portfolio/static/media/flo.041b6cc1.png",
+    "static/media/herobg.871da846.jpg": "/portfolio/static/media/herobg.871da846.jpg",
+    "static/media/html.33745ead.png": "/portfolio/static/media/html.33745ead.png",
+    "static/media/js.25c00c21.png": "/portfolio/static/media/js.25c00c21.png",
+    "static/media/node.c6649cb1.png": "/portfolio/static/media/node.c6649cb1.png",
+    "static/media/react.ad5bf3e1.png": "/portfolio/static/media/react.ad5bf3e1.png",
+    "static/media/sass.eae2b96d.png": "/portfolio/static/media/sass.eae2b96d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.728b41af.js",
+    "static/js/2.dc7c36a5.chunk.js",
+    "static/css/main.5e5f5b89.chunk.css",
+    "static/js/main.cf4f7f3d.chunk.js"
+  ]
+}
