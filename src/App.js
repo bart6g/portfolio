@@ -31,7 +31,7 @@ const App = () => {
       <About />
       <Project />
       <Contact />
-      <Footer />
+    
     </>
   );
 };

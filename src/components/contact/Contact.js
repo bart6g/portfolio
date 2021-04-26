@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from "react";
+import { ColumnWrapper } from "../footer/footerElements";
 import {
   Button,
   ContactContainer,
+  ContactWrapper,
   Form,
   FormContainer,
 } from "./contactElements";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { sendEmail } from "./sendEmail";
 require("dotenv").config();
 const Contact = () => {
@@ -44,41 +48,37 @@ const Contact = () => {
   return (
     <ContactContainer id="contact">
       <FormContainer>
-        <Form onSubmit={(e) => handleSubmitForm(e)}>
-          <h2>Write to me</h2>
-          <p>{showResult ? `${resultMessage}` : ""}</p>
-          <label>
-            <input
-              type="text"
-              required
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-            <span className="placeholder">Name</span>
-          </label>
-          <label>
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <span className="placeholder">Email</span>
-          </label>
-
-          <label>
-            <textarea
-              required
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
-            <span className="placeholder">Your message</span>
-          </label>
-          <Button>Send</Button>
-        </Form>
-      </FormContainer>
-    </ContactContainer>
-  );
-};
-
+        <ColumnWrapper>
+        <h2>If you are looking for an employee with a great desire to learn new things, not only front-end, you've come to the right place. I provide my contact details below</h2>
+        <div className="detail">
+        <div className="text">
+        <AiOutlineMail /> bartosz.galuszka96@gmail.com
+        </div>
+        <div className="text">
+        <AiOutlinePhone /> +48 785 964 722
+        </div>
+        <div className="icons">
+        <a
+        href="https://www.linkedin.com/in/bartosz-ga%C5%82uszka-286242200/"
+        target="_blank"
+        rel="noreferrer"
+        >
+        <FaLinkedin />
+        </a>
+        <a
+        href="https://github.com/bart6g"
+        target="_blank"
+        rel="noreferrer"
+        >
+        <FaGithubSquare />
+        </a>
+        </div>
+        </div>
+        <h3> &copy; 2021 Bartosz Gałuszka</h3>
+        </ColumnWrapper>
+        </FormContainer>
+        </ContactContainer>
+        );
+      };
+      
 export default Contact;

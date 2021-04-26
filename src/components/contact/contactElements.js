@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContactContainer = styled.div`
   width: 100%;
   height: 200px;
-  background-color: #377fea;
+  background-color: #0d174a;
   position: relative;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ export const FormContainer = styled.div`
   align-items: center;
 `;
 
-export const Form = styled.form`
+export const ContactWrapper = styled.div`
   margin-top: 50px;
   width: 100%;
   height: 100%;
@@ -33,8 +33,9 @@ export const Form = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e7efff;
+  background-color: #0d174a;
   max-width: 500px;
+  min-height: 500px;
   box-shadow: 2px 30px 40px 5px rgb(212 217 232 / 20%);
   label {
     width: 100%;

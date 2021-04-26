@@ -15,12 +15,20 @@ export const ColumnWrapper = styled.div`
   max-width: 1350px;
   margin: 0 auto;
   padding: 20px 30px;
-  color: white;
+  color: #0d174a;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  h2{
+    padding: 30px 40px;
+    text-align:center;
+  }
+
+  h3{
+    padding: 40px 0 20px 0;
+  }
   .detail {
     display: flex;
     align-items: center;
@@ -29,7 +37,7 @@ export const ColumnWrapper = styled.div`
       align-items: center;
     
       padding: 5px 10px;
-        border-right: 5px solid white;
+        border-right: 5px solid #0d174a;
        svg{
          font-size: 24px;
          margin-right: 10px;
@@ -51,7 +59,7 @@ export const ColumnWrapper = styled.div`
     align-items: center;
     font-size: 28px;
     margin-left: 10px;
-    color: white;
+    color: #0d174a;
     text-decoration: none;
     transition: all 0.3s ease;
 
